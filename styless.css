@@ -1,0 +1,147 @@
+html{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #343a40;
+    padding:20px ;
+    margin: 0px 0px;
+    color: white;
+}
+.banner{
+    padding:96px 32px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    font-size: 40px;   
+    font-weight: 300; 
+    margin: 0 0 8px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #6c757d;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    max-width: 610px;
+    text-align: center;
+}
+.banner button{
+    font-size: 16px;
+    margin: 8px 0px;
+    padding: 12px 12px;
+    font-weight: 400;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+.banner button:first-of-type{
+    background-color: #007bff;
+}
+.banner button:last-of-type{
+    background-color: #6c757d;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    padding: 48px 15px;
+    width: 100%;
+    max-width: 1140px;
+    gap: 30px;
+}
+.row{
+    gap: 20px;
+}
+.card{  
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 24px;
+    border-radius: 5px;
+}    
+.card-image{
+    height: 225px;
+    width: 100%;
+    font-weight: 400px;
+    background-color: #212529;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+}
+.card-image img{
+    width: 100%;
+    height: 225px;
+}
+.card-bottom{
+    padding: 20px;
+}
+.card-bottom p{
+    font-size: 16px;
+    margin: 0px 0px 16px;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+}
+.button-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+}
+.buttons > button{
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    font-size: 14px;
+    padding: 6px 8px;
+    margin: 0px;
+    background-color: transparent;
+}
+.view-button {
+    border-radius: 5px 0 0 5px;
+}
+.edit-button {
+    border-left: 0px !important;
+    border-radius: 0 5px 5px 0;
+}
+.time-published{
+    font-size: 12.8px;
+    color: #6c757d;
+}
+.edit-button:hover{
+    background-color: #6c757d;
+    color: white;
+}
+.view-button:hover{
+    background-color: #6c757d; 
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #6c757d;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+footer a{
+    color:#007bff
+}
+.top{
+    display: flex;
+    align-items: center;
+}
